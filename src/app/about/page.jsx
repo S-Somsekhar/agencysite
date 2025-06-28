@@ -48,16 +48,18 @@ export default function About() {
       </div>
 
       {/* Founder Card */}
-      <div className="max-w-3xl mx-auto bg-slate-800 border border-slate-700 rounded-xl p-6 shadow-lg flex flex-col md:flex-row gap-6 items-center">
-        <div className="w-24 h-24 bg-slate-700 rounded-full" />
-        <div>
-          <h4 className="text-xl font-semibold text-cyan-300 mb-2">Alex F.</h4>
-          <p className="text-white/70 italic">
-            “I started LaunchLab because I was tired of bloated websites and templated pitches. Good design should feel personal. Good code should load in milliseconds.”
-          </p>
-        </div>
-      </div>
-
+<div className="bg-slate-800 p-6 rounded-xl border border-slate-700 shadow-md max-w-2xl mx-auto text-center">
+  <img
+    src="/founder.png"
+    alt="Alex F., Founder"
+    className="w-24 h-24 mx-auto rounded-full mb-4 border-2 border-cyan-400"
+  />
+  <h3 className="text-xl font-semibold text-cyan-300">Alex F.</h3>
+  <p className="text-white/70 text-sm italic mb-2">Founder, LaunchLab</p>
+  <p className="text-white/80 text-sm">
+    Built his first website at 17. Believes most websites are 70% bloat and 30% lorem ipsum. Obsessed with fast loads, clean code, and stupid-good UI.
+  </p>
+</div>
       {/* Timeline */}
       <div className="max-w-3xl mx-auto">
         <h4 className="text-2xl font-semibold text-cyan-300 mb-6 text-center">Our Journey</h4>
